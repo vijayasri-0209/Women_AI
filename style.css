@@ -1,0 +1,40 @@
+body{
+font-family: Arial;
+background: linear-gradient(120deg,#ff9a9e,#fad0c4);
+text-align:center;
+}
+
+.container{
+width:400px;
+margin:auto;
+background:white;
+padding:30px;
+margin-top:80px;
+border-radius:10px;
+box-shadow:0px 0px 10px gray;
+}
+
+h2{
+color:#ff4b5c;
+}
+
+input,select{
+width:90%;
+padding:10px;
+margin:10px;
+border:1px solid #ccc;
+border-radius:5px;
+}
+
+button{
+background:#ff4b5c;
+color:white;
+border:none;
+padding:10px 20px;
+cursor:pointer;
+border-radius:5px;
+}
+
+button:hover{
+background:#ff1e3c;
+}

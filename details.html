@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>Business Details</title>
+
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+</head>
+
+<body>
+
+<div class="container">
+<h2> VIJAYASRI </h2>
+<h2>Enter Business Details</h2>
+
+<form method="post">
+
+<input type="number" name="budget" placeholder="Enter Budget" required>
+
+<input type="text" name="location" placeholder="Enter Location" required>
+
+<select name="experience">
+
+<option>Beginner</option>
+
+<option>Intermediate</option>
+
+<option>Expert</option>
+
+</select>
+
+<br>
+
+<button type="submit">Predict Business</button>
+
+</form>
+
+</div>
+
+</body>
+
+</html>
